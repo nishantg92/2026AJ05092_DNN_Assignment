@@ -1,0 +1,21 @@
+# Local Python environment and generated caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Downloaded datasets (keep notebooks, results, figures, and reports)
+**/UCI_HAR/
+**/UCI_HAR_extracted/
+**/human_activity_recognition.zip
+tinyshakespeare.txt
+
+# Local model artifacts
+*.pt
+*.pth
+*.ckpt
+
+# Temporary sampling outputs; keep problem2/generated_samples.txt
+/generated_samples.txt
+generated_temp_*.txt
